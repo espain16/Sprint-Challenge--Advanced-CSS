@@ -1,1 +1,25 @@
 // Navigation code here
+.header{
+    .column();
+    align-items: center;
+
+    h1{
+        font-size: @space-font;
+        margin: 20px 0px;
+    }
+    nav{
+       margin-bottom: 18px; 
+      a{
+        .nav-text();
+        font-size: @a-font; 
+        margin:0 20px;
+
+      }  
+    }
+    @media @phone{
+        width:470px;
+        nav{
+            width:95%;
+        }
+    }
+}

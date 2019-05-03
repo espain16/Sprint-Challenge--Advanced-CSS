@@ -1,1 +1,29 @@
 // Mixins Here
+.nav-text(){
+    text-decoration: none;
+    color: black;
+}
+.column(){
+    display:flex;
+    flex-direction: column;
+}
+.hide-photo(){
+    display:none;
+}
+//Parametric Mixins
+.button-layout(@ta, @p, @fs ){
+    text-align: @ta;
+    padding: @p;
+    font-size:@fs
+}
+
+.button(@br,@h, @w, @b){
+    border-radius: @br;
+    height: @h;
+    width: @w;
+   background-color: @b;
+    
+  }
+
+  
+  
