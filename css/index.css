@@ -240,6 +240,10 @@ footer {
   background-color: black;
   color: #F6F6F6;
 }
+.home .walk .walk-text .btn:hover {
+  background-color: #16d6c6;
+  color: orange;
+}
 .home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
