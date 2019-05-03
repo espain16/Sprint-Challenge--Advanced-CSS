@@ -34,13 +34,22 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive website has the production speed of a fixed layout but uses specific breakpoints for some devices. A fully responsive website has the ability to expand and contract to the users needs. Uses responsive units so that any person can make changes to their browser and still have a fully functional website.
+
 2. Describe what it means to be mobile first vs desktop first.
+Mobile first is the process of building a website or page from a smaller media query, which can be difficult at times. Desktop you start larger and then start designing for the smaller devices afterwards. 
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+The font size 62.5% creates an easier font size standard to then convert px to rem units.The font size is adjusted from the normal 16 px to 10px, makes convert units way easier.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is basically CSS written in a different language that thens compiles it into normal CSS.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept of preprocessing would basically be using parametric mixins because they promote me to think about my ideas before writing my code. I sometimes have trouble setting them up properly so I enjoy them because they are challenging. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -116,7 +125,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [x] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
 
-* [ ] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
+* [x] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
 * [ ] Push your changes and create a pull request if you haven't already.
 
