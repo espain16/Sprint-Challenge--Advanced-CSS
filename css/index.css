@@ -169,10 +169,14 @@ p {
   font-size: 3.5rem;
   margin-bottom: 20px;
 }
+.header nav {
+  margin-bottom: 18px;
+}
 .header nav a {
   text-decoration: none;
   color: black;
   font-size: 1.5rem;
+  margin: 0 20px;
 }
 footer {
   color: #22283B;
