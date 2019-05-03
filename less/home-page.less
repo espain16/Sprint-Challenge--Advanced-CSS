@@ -24,12 +24,27 @@
     flex-wrap: wrap;
     width: 100%;
 
+    @media @phone{
+      flex-direction: column-reverse;
+      width:470px;
+      .blast{
+        width: 100%;
+      }
+      .sky{
+        .hide-photo();
+      }
+      .launch{
+        .hide-photo();
+      }
+
+    }
     img {
       width: 28%;
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
     }
+    
   }
 
   .visit-planets {
@@ -51,6 +66,9 @@
     display: flex;
     justify-content: center;
 
+    @media @phone{
+      
+    }
     .walk-text {
       width: 50%;
 
