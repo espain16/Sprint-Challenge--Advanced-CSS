@@ -3,13 +3,15 @@
     text-decoration: none;
     color: black;
 }
+
+//Parametric Mixins
 .button-layout(@ta, @p, @fs ){
     text-align: @ta;
     padding: @p;
     font-size:@fs
 }
 
-.button(){
+.button(@br,@h, @w, @b){
     border-radius: @br;
     height: @h;
     width: @w;
