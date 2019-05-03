@@ -67,10 +67,20 @@
     justify-content: center;
 
     @media @phone{
+      flex-direction: column-reverse;
+      width:480px;
+      padding: 5px;
+     align-items: center;
+     margin-top: 30px;
       
     }
     .walk-text {
       width: 50%;
+
+      @media @phone{
+        width:100%;
+        padding:10px;
+      }
 
       h3 {
         margin-bottom: 10px;
@@ -86,7 +96,14 @@
         color:@wild-sand;
         &:hover{
           background-color: rgb(22, 214, 198);
-          color:orange; 
+          color:rgb(255, 136, 0); 
+        }
+        @media @phone{
+          width: 100%;
+          margin-left:5px;
+          height:63px;
+         padding-top:20px;
+          
         }
       }
     }
@@ -95,10 +112,16 @@
       width: 46%;
       margin-left: 4%;
       
+      @media @phone{
+        width:100%;
+       padding:25px 5px;
+      }
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
+
+        
       }
     }
   }
