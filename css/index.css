@@ -178,6 +178,14 @@ p {
   font-size: 1.5rem;
   margin: 0 20px;
 }
+@media (max-width:500px) {
+  .header {
+    width: 470px;
+  }
+  .header nav {
+    width: 95%;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -193,6 +201,11 @@ footer {
 }
 .home .intro p {
   padding: 0 15px;
+}
+@media (max-width:500px) {
+  .home .intro .earth {
+    width: 100%;
+  }
 }
 .home .space-images {
   display: flex;
